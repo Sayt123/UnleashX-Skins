@@ -1,0 +1,76 @@
+﻿<Skin name="Bebop">
+    <Information>
+        <Author>Sayt</Author>
+        <Version>1.0a</Version>
+        <Copyright>2014</Copyright>
+    </Information>
+    <Main Globe="False" Orb="False" Fog="False">
+        <Background EnableAudio="True">jam.wmv</Background>
+		<Image Top="0" Left="0" Width="640" Height="480" Opacity="69">overlay.png</Image>
+        <InfoFont>Square-10.xpr</InfoFont>
+        <Text Top="70" Left="55" Width="220" Scroll="0" Color="0xFFFFFFFF" Source="Newsfeed" Align="Left" />
+		<Text Top="221" Left="147" Width="223" Scroll="0" Color="0xFFFFFFFF" Source="IP" Align="Left" />
+		<Text Top="254" Left="147" Width="219" Scroll="0" Color="0xFFFFFFFF" Source="CPU: $CPUTemp$" Align="Left" />
+        <Text Top="236" Left="147" Width="200" Scroll="0" Color="0xFFFFFFFF" Source="DVDTitle" Align="Left" />
+		<Text Top="220" Left="32" Align="Left" Color="0xFFFFFFFF" Source="$Time$"></Text>
+		<Text Top="245" Left="34" Align="Left" Color="0xFFFFFFFF" Source="Fan: $FanSpeed$"></Text>
+	   <Image Source="GamePreview" />
+        <Menu Align="Left" ShowIcon="False" ShowArrows="False">
+            <Preview EnableAudio="True" Top="66" Left="37" Width="223" Height="105" />
+            <ItemPos Top="65" Left="65" Width="235"></ItemPos>
+            <ItemPos Top="100" Left="65" Width="235"></ItemPos>
+            <ItemPos Top="135" Left="65" Width="235"></ItemPos>
+            <ItemPos Top="170" Left="65" Width="235"></ItemPos>
+            <Font>Square-10.xpr</Font>
+       
+
+ </Menu>
+        </Main>
+                
+                <IntroMovie></IntroMovie>
+                <FileManager SafeBorder="False">
+		<BackGround>ein.png</BackGround>
+        </FileManager>
+	<LoadingScreen ShowInfo="False">
+		<BackGround EnableAudio="True">load.wmv</BackGround>
+	</LoadingScreen>
+
+        <ColorScheme>
+            <AMBIENT_FOGCOLOR>0xFFFFFFFF</AMBIENT_FOGCOLOR>
+            <AMBIENT_SKYCOLOR>0xFF00000F</AMBIENT_SKYCOLOR>
+            <AMBIENT_CELLCOLOR>0xFF00C000</AMBIENT_CELLCOLOR>
+            <CAPTION_TEXTCOLOR>0xFFFFFFFF</CAPTION_TEXTCOLOR>
+            <CAPTION_BACKCOLOR>0xFF000000</CAPTION_BACKCOLOR>
+            <DIALOG_BORDERCOLOR>0xFF888899</DIALOG_BORDERCOLOR>
+            <DIALOG_BACKCOLOR>0xCC222232</DIALOG_BACKCOLOR>
+            <DIALOG_INNER_BORDERCOLOR>0xFF888899</DIALOG_INNER_BORDERCOLOR>
+            <DIALOG_INNER_BACKCOLOR>0xFF222232</DIALOG_INNER_BACKCOLOR>
+            <DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
+            <DIALOG_DISABLEDTEXT>0xFFB3B3B4</DIALOG_DISABLEDTEXT>
+            <OPTION_TEXTCOLOR>0xFFFFFFFF</OPTION_TEXTCOLOR>
+            <OPTION_ACTIVETEXTCOLOR>0xFFFFFFFE</OPTION_ACTIVETEXTCOLOR>
+            <OPTION_ACTIVEBACKCOLOR>0xFF888899</OPTION_ACTIVEBACKCOLOR>
+			<OPTION_BACKCOLOR>0xFF222232</OPTION_BACKCOLOR>
+            <BUTTON_BORDERCOLOR>0xFFFFFFFF</BUTTON_BORDERCOLOR>
+            <BUTTON_TEXTCOLOR>0xFFFFFFFF</BUTTON_TEXTCOLOR>
+            <BUTTON_BACKCOLOR>0xFF888899</BUTTON_BACKCOLOR>
+            <BUTTON_ACTIVETEXTCOLOR>0xFF000000</BUTTON_ACTIVETEXTCOLOR>
+            <BUTTON_ACTIVEBACKCOLOR>0xFF888899</BUTTON_ACTIVEBACKCOLOR>
+            <KB_KEYBG_HIGHLIGHT>0xFF888899</KB_KEYBG_HIGHLIGHT>
+            <KB_KEYBG_DISABLED>0xFFC0C0C0</KB_KEYBG_DISABLED>
+            <KB_KEY_PRESSED>0xFF888899</KB_KEY_PRESSED>
+            <KB_KEY_NORMAL>0xFF000000</KB_KEY_NORMAL>
+            <KB_KEY_DISABLED>0xFF808080</KB_KEY_DISABLED>
+            <KB_KEY_ACTIVEBORDER>0xFF888899</KB_KEY_ACTIVEBORDER>
+            <KB_KEY_TEXTCOLOR>0xFF000000</KB_KEY_TEXTCOLOR>
+            <KB_KEY_TEXTBACKCOLOR>0xFFFFFFFF</KB_KEY_TEXTBACKCOLOR>
+            <KB_KEY_TEXTBORDERCOLOR>0xFF222232</KB_KEY_TEXTBORDERCOLOR>
+            <MENU_TEXTCOLOR>0xFFFFFFFF</MENU_TEXTCOLOR>
+            <MENU_ACTIVETEXTCOLOR>0xFFFFFFFF</MENU_ACTIVETEXTCOLOR>
+            <MENU_BORDERCOLOR>0xFFFF0000</MENU_BORDERCOLOR>
+            <MENU_BACKCOLOR>0xFF000000</MENU_BACKCOLOR>
+            <MENU_ACTIVEBACKCOLOR>0xFF222232</MENU_ACTIVEBACKCOLOR>
+            <MENU_ACTIVEBORDERCOLOR>0xFF888899</MENU_ACTIVEBORDERCOLOR>
+        </ColorScheme>
+    </Main>
+</Skin>
