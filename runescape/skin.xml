@@ -1,0 +1,58 @@
+﻿<Skin name="Runescape">
+	<Information>
+		<Author>Sayt</Author>
+		<Version>1</Version>
+		<Copyright>2021</Copyright>
+	</Information>
+    <Filemanager>
+        <Background>filemanager.jpg</Background>
+    </Filemanager>
+    <LoadingScreen ShowInfo="False">
+        <Background>loading.jpg</Background>
+    </LoadingScreen>
+    <Main Globe="False" Orb="False" Fog="False">
+        <Background EnableAudio="False">runescape.jpg</Background>
+        <InfoFont>runescape.xpr</InfoFont>
+       
+        <Image Top="70" Left="240" Width="161" Height="115" Source="" />
+ 	<Image Source="GamePreview" />
+	<Image Top="0" Left="0" Width="640" Height="480" Opacity="100">overlay.png</Image>
+        <Menu Align="Middle" ShowIcon="False" ShowArrows="False">
+            <Preview EnableAudio="False" Top="70" Left="240" Width="161" Height="115" />
+            <Position Top="187" Left="199" Width="247" Height="164" Fixed="False" FixAt="2" MaxItem="4" />
+            <Font>runescape.xpr</Font>
+        </Menu>
+        <ColorScheme>
+            <AMBIENT_FOGCOLOR>0x78FFFFFF</AMBIENT_FOGCOLOR>
+            <AMBIENT_SKYCOLOR>0xFF00000F</AMBIENT_SKYCOLOR>
+            <AMBIENT_CELLCOLOR>0x7800C000</AMBIENT_CELLCOLOR>
+            <CAPTION_TEXTCOLOR>0xFFFFFF00</CAPTION_TEXTCOLOR>
+            <CAPTION_BACKCOLOR>0xFFFFFFFF</CAPTION_BACKCOLOR>
+            <DIALOG_BORDERCOLOR>0xFFFFFFFF</DIALOG_BORDERCOLOR>
+            <DIALOG_BACKCOLOR>0x4FFF8000</DIALOG_BACKCOLOR>
+            <DIALOG_INNER_BORDERCOLOR>0xFFFFFFFF</DIALOG_INNER_BORDERCOLOR>
+            <DIALOG_INNER_BACKCOLOR>0xCA585858</DIALOG_INNER_BACKCOLOR>
+            <DIALOG_TEXTCOLOR>0xFFFFFF00</DIALOG_TEXTCOLOR>
+            <DIALOG_DISABLEDTEXT>0xFFFFFFFF</DIALOG_DISABLEDTEXT>
+            <OPTION_TEXTCOLOR>0xFFFFFF00</OPTION_TEXTCOLOR>
+            <OPTION_ACTIVETEXTCOLOR>0xFFFFFFFF</OPTION_ACTIVETEXTCOLOR>
+            <OPTION_ACTIVEBACKCOLOR>0xFF000000</OPTION_ACTIVEBACKCOLOR>
+            <BUTTON_BORDERCOLOR>0xFFFFFFFF</BUTTON_BORDERCOLOR>
+            <BUTTON_TEXTCOLOR>0xFFFFFF00</BUTTON_TEXTCOLOR>
+            <BUTTON_BACKCOLOR>0xFF273CF3</BUTTON_BACKCOLOR>
+            <BUTTON_ACTIVETEXTCOLOR>0xFFFFFF00</BUTTON_ACTIVETEXTCOLOR>
+            <BUTTON_ACTIVEBACKCOLOR>0xFF003399</BUTTON_ACTIVEBACKCOLOR>
+            <KB_KEYBG_HIGHLIGHT>0xFF0000FF</KB_KEYBG_HIGHLIGHT>
+            <KB_KEYBG_DISABLED>0x78C0C0C0</KB_KEYBG_DISABLED>
+            <KB_KEY_PRESSED>0xFF008000</KB_KEY_PRESSED>
+            <KB_KEY_NORMAL>0xFF000000</KB_KEY_NORMAL>
+            <KB_KEY_DISABLED>0xFFFFFFFF</KB_KEY_DISABLED>
+            <KB_KEY_ACTIVEBORDER>0xFFFF0000</KB_KEY_ACTIVEBORDER>
+            <KB_KEY_TEXTCOLOR>0xFF000000</KB_KEY_TEXTCOLOR>
+            <KB_KEY_TEXTBACKCOLOR>0xFFFFFFFF</KB_KEY_TEXTBACKCOLOR>
+            <KB_KEY_TEXTBORDERCOLOR>0x780000FF</KB_KEY_TEXTBORDERCOLOR>
+            <MENU_TEXTCOLOR>0xFFFFFFFF</MENU_TEXTCOLOR>
+            <MENU_ACTIVETEXTCOLOR>0xFFFFFF00</MENU_ACTIVETEXTCOLOR>
+        </ColorScheme>
+    </Main>
+</Skin>
