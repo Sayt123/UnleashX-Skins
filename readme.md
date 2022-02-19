@@ -13,5 +13,5 @@ Designed around a Cowboy Bebop theme, the background video tends to lag when men
 ![FTP Screenshot](https://raw.githubusercontent.com/Sayt123/UnleashX-Skins/main/Bebop/screenshots/FTPScreenshot.png)
 
 ### Runescape
-![Screenshot](https://raw.githubusercontent.com/Sayt123/UnleashX-Skins/main/runescape/screenshots/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/Sayt123/UnleashX-Skins/main/runescape/screenshots/screenshot.jpg)
 Screenshot is a lazy youtube rip, will get a better image later.
